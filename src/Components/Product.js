@@ -101,7 +101,6 @@ const Product = () => {
                           ({items.discount}% off)
                         </span>
                         <img className="addimg" src={group450} alt="group450" />
-                        {/* <p> Review..</p> */}
                       </div>
                       <button
                         onClick={() => handleReview(items.id)}
