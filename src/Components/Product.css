@@ -1,0 +1,13 @@
+.Product_Container {
+  width: 100%;
+  background-color: black;
+  /* border: 1px solid red; */
+}
+.Product_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Product_img > img {
+  cursor: pointer;
+}
