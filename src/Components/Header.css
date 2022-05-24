@@ -1,0 +1,31 @@
+.Main_Container {
+  width: 100%;
+  height: 105px;
+  padding: 19px 24px 22px 50px;
+  background-color: black;
+}
+.header_section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  color: white;
+  letter-spacing: 0.55em;
+  cursor: pointer;
+}
+.Left_section > img {
+  padding-left: 30px;
+  cursor: pointer;
+}
+.Content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Content > p {
+  color: white;
+  padding-left: 50px;
+  font-family: "Encode Sans";
+}
